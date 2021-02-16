@@ -10,4 +10,10 @@ class test1 {
 		myAcc.setLogin("user1");
 	}
 	
+	@Test //аннотация, что это тест
+	void test2() {
+		Account myAcc = new Account("Ivanov", "user1", "123", 21, false);
+	}
+	
+	
 }
