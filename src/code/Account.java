@@ -5,6 +5,12 @@ public class Account {
 	private boolean online;
 	private int age;
 	
+	public Account(String string, String string2, String string3, int i, boolean b) {
+		// TODO Auto-generated constructor stub
+	}
+	public Account() {
+		// TODO Auto-generated constructor stub
+	}
 	public String getLogin() {
 		return login;
 	}
