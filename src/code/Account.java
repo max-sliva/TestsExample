@@ -5,8 +5,14 @@ public class Account {
 	private boolean online;
 	private int age;
 	
-	public Account(String string, String string2, String string3, int i, boolean b) {
-		// TODO Auto-generated constructor stub
+
+	public Account(String fio, String login, String pass, int age, boolean online) {
+		super();
+		this.login = login;
+		this.pass = pass;
+		this.fio = fio;
+		this.online = online;
+		this.age = age;
 	}
 	public Account() {
 		// TODO Auto-generated constructor stub
